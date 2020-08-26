@@ -1,0 +1,19 @@
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+	.product-list {
+        -ms-grid-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    .product-list {
+        -ms-grid-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
